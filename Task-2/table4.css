@@ -7,7 +7,7 @@ body{
 }
 
 .table-container {
-    background-color: #949393;   /* table ke piche color */
+    background-color: #c6ccd2;   /* table ke piche color */
     padding: 20px;
     width: 490px;
     height: 250px;
@@ -20,17 +20,18 @@ body{
     margin: 10px 40px;
     border-radius: 15px;
     text-align: center;
+    
 }
 
 .top-div h2 {
-    font-family: Gill Sans Ultra Bold;
+    font-style: italic;
 }
 
 table{
     border-collapse:collapse;
     background:#c6ccd2;
     width:500px;
-    font-family: Gill Sans Ultra Bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
 }
 

@@ -1,0 +1,47 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#f2f2f2;
+    font-family: Georgia, serif;
+}
+
+table{
+    border: 1px solid black;
+    width:700px;
+    background:white;
+}
+
+th, td{
+  border: 1px solid black;
+    padding:12px;
+    text-align:center;
+    font-size:20px;
+}
+
+.heading{
+    background:linear-gradient(#3dcfe8,#4be0ee);
+    color: black;
+    font-weight:bold;
+}
+
+.inner{
+  border: 1px solid black;
+    width:100%;
+}
+
+.inner td{
+  border: 1px solid black;
+    padding:10px;
+}
+
+.model{
+    background:#dca433;
+    font-weight:bold;
+}
+
+.storage{
+    background:#e0b35a;
+    font-weight:bold;
+}

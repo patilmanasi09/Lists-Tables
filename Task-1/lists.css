@@ -1,0 +1,54 @@
+    body{ 
+      background-color: #067cf1;
+      font-family: 'Arial Black', sans-serif; 
+      display: flex; 
+      justify-content: center; 
+      padding-top: 70px; 
+  }
+
+  
+  .container { 
+      display: flex; 
+      gap: 40px; 
+      margin-top: 90px;
+    }
+  
+    /* Card ka main box */
+  .card { 
+      width: 220px; 
+      background: white; 
+      border-radius: 5px; 
+      overflow: hidden; 
+      box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    }
+  
+    /* Top Color Section with Tilted Angle */
+  .header {
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 20px;
+      text-decoration: underline;
+      
+      margin-bottom: -20px;
+    }
+  
+    /* Colors as per Image */
+    .fruits { background: linear-gradient(to right, #7db00e, #d3d321); }
+    .veggies { background: linear-gradient(to right, #7b1fa2, #4dd0e1); }
+    .groceries { background: linear-gradient(to right, #c2185b, #ff8a65); }
+  
+    /* List Styling with Gap */
+    ul, ol { 
+      padding: 40px 20px 20px 50px; 
+      margin: 0; 
+      font-size: 18px; 
+      color: #333;
+    }
+  
+    li { 
+      margin-bottom: 25px; /* Items ke beech gap */
+      font-weight: bold; 
+    }

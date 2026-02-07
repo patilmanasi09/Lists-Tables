@@ -1,0 +1,12 @@
+.favlinks ul {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #130f40;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,45 @@
+body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+
+        /* Table Container */
+        .table-box {
+            width: 550px;
+            margin-top: 15%;
+            margin-left: 33%;
+            
+        }
+
+        /* Table Title */
+        .table-title {
+            background: #fed908;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            padding: 15px;
+            color: black;
+        }
+
+        /* Table Style */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* Header */
+        th {
+            background: #e81010;
+            color: white;
+            padding: 12px;
+            border: 2px solid #fed908;
+        }
+
+        /* Table Data */
+        td {
+            background: #66cc33;
+            padding: 12px;
+            border: 2px solid #fed908;
+            text-align: center;
+            font-weight: bold;
+        }
